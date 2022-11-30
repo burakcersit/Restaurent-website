@@ -43,6 +43,17 @@ button{
     text-decoration: none;
    }
    
+   .locations td{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+   }
+
+
+   .locations{
+    margin-bottom: 50px;
+   }
+   
 
    
    /* nav bar and logo styling  */
