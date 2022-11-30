@@ -43,3 +43,80 @@ button{
     text-decoration: none;
    }
    
+
+   
+   /* nav bar and logo styling  */
+   .container{
+    clear:both;
+    overflow:auto;
+  }
+  .container ul li:hover li {
+display: block;
+  }
+
+
+  nav{float:right;
+padding-right: 60px; }
+  
+  .logo1 img{float:left;
+  width: 120px;
+  height: 120px;
+  }
+  
+  ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:raleway;
+    margin-left:100px;
+margin-right:100px;
+  }
+  
+  ul li:hover{
+    color:orange;
+    
+  }
+/* Dropdown box css styling  */
+     .dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size:20px; font-family:raleway;
+border: none;
+outline: none;
+
+padding: 14px 16px;
+background-color: inherit;
+
+margin: 0;
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+background-color: orange;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
