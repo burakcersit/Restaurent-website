@@ -1,8 +1,9 @@
 
 
-.logo {
+.logo, .article1 {
 display: flex;
 justify-content: center;
+
 }
 
 table, .title{
@@ -53,8 +54,12 @@ button{
    .locations{
     margin-bottom: 50px;
    }
-   
 
+
+
+
+   
+ 
    
    /* nav bar and logo styling  */
    .container{
