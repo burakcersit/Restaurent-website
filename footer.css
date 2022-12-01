@@ -1,4 +1,7 @@
 /* footer css style */
+footer{
+    justify-content: center;
+}
 .end {
     position: absolute;
     bottom: 0;
